@@ -40,6 +40,15 @@ Neste [link](https://www.electroschematics.com/wp-content/uploads/2015/02/DHT.ra
 
 "Vou ver se ponho aqui imagens"
 
+
+
+
+
+######Outros Links
 Processing  - https://hellocircuits.com/2013/10/04/arduino-to-processing-graphing-multiple-sensors/
+
+
 Tutorial Frequencia - https://howtomechatronics.com/tutorials/arduino/arduino-color-sensing-tutorial-tcs230-tcs3200-color-sensor/
+
+
 @Nelson Rebelo @Nuno Antunes @Vasco Coração @ESERO Portugal
