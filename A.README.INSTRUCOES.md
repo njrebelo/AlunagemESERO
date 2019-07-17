@@ -3,7 +3,8 @@
 ## Informação de sensores:
 ```
   Gás - MQ135 - Valores em PPM
-  Temperatura e Humidade - AM2302 - Valores em ºC e em %
+  Temperatura e Humidade (Ar) - AM2302 - Valores em ºC e em %
+  Temperatura (Água) - DS18B20 - Valores em ºC
   Frequência - SEN0101 - Valores em nanometros
   Salinidade - SEN0244 - Valores em PPM
 ```
@@ -35,8 +36,10 @@ Neste [link](https://www.electroschematics.com/wp-content/uploads/2015/02/DHT.ra
 -[Gas](https://portal.vidadesilicio.com.br/sensor-de-gas-mq-135/)
 
 -[Temp e Humidade Ar](https://www.electroschematics.com/11291/arduino-dht22-am2302-tutorial-library/) - Neste o D2 passa para o D8
+-[Temp Água](https://create.arduino.cc/projecthub/TheGadgetBoy/ds18b20-digital-temperature-sensor-and-arduino-9cc806) - Neste o D2 passa para o D9
 
 "Vou ver se ponho aqui imagens"
 
-
+Processing  - https://hellocircuits.com/2013/10/04/arduino-to-processing-graphing-multiple-sensors/
+Tutorial Frequencia - https://howtomechatronics.com/tutorials/arduino/arduino-color-sensing-tutorial-tcs230-tcs3200-color-sensor/
 @Nelson Rebelo @Nuno Antunes @Vasco Coração @ESERO Portugal
