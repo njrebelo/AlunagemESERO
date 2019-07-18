@@ -19,7 +19,7 @@
 
 **Mas uma outra tem que ser feito o download:**
 
-Neste [link](https://www.electroschematics.com/wp-content/uploads/2015/02/DHT.rar) e depois este Winrar tem que ser exportado para o repositorio das bibliotecas.
+Neste ![link](https://www.electroschematics.com/wp-content/uploads/2015/02/DHT.rar) e depois este Winrar tem que ser exportado para o repositorio das bibliotecas.
 
 
 
@@ -29,16 +29,16 @@ Neste [link](https://www.electroschematics.com/wp-content/uploads/2015/02/DHT.ra
 
  ## Links com as montagens dos sensores:
 
--[Salinidade](https://wiki.dfrobot.com/Gravity__Analog_TDS_Sensor___Meter_For_Arduino_SKU__SEN0244)
+-![Salinidade](https://wiki.dfrobot.com/Gravity__Analog_TDS_Sensor___Meter_For_Arduino_SKU__SEN0244)
 
--[Frequencia](https://wiki.dfrobot.com/TCS3200_Color_Sensor__SKU_SEN0101_#target_3)
+-![Frequencia](https://wiki.dfrobot.com/TCS3200_Color_Sensor__SKU_SEN0101_#target_3)
 
--[Gas](https://portal.vidadesilicio.com.br/sensor-de-gas-mq-135/)
+-![Gas](https://portal.vidadesilicio.com.br/sensor-de-gas-mq-135/)
 
--[Temp e Humidade Ar](https://www.electroschematics.com/11291/arduino-dht22-am2302-tutorial-library/) - Neste o D2 passa para o D8
+-![Temp e Humidade Ar](https://www.electroschematics.com/11291/arduino-dht22-am2302-tutorial-library/) - Neste o D2 passa para o D8
 
 
--[Temp Água](https://create.arduino.cc/projecthub/TheGadgetBoy/ds18b20-digital-temperature-sensor-and-arduino-9cc806) - Neste o D2 passa para o D9
+-![Temp Água](https://create.arduino.cc/projecthub/TheGadgetBoy/ds18b20-digital-temperature-sensor-and-arduino-9cc806) - Neste o D2 passa para o D9
 
 "Vou ver se ponho aqui imagens"
 
@@ -51,10 +51,10 @@ Neste [link](https://www.electroschematics.com/wp-content/uploads/2015/02/DHT.ra
 ![alt text](https://i.imgur.com/6xdFLSC.jpg)
 
 
-O código que vai ser usado é o que está na [Página Inicial](https://github.com/njrebelo/AlunagemESERO/blob/Codigos/Ecra_Alunagem_Final_2.pde).
+O código que vai ser usado é o que está na ![Página Inicial](https://github.com/njrebelo/AlunagemESERO/blob/Codigos/Ecra_Alunagem_Final_2.pde).
 
 
-Para poder usar o Processing é preciso fazer o [download](http://download.processing.org/processing-3.5.3-windows64.zip), e depois exportar o ZIP para o ambiente de trabalho.
+Para poder usar o Processing é preciso fazer o ![download](http://download.processing.org/processing-3.5.3-windows64.zip), e depois exportar o ZIP para o ambiente de trabalho.
 
 ## Outros Links
 Processing  - https://hellocircuits.com/2013/10/04/arduino-to-processing-graphing-multiple-sensors/
