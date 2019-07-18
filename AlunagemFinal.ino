@@ -132,19 +132,17 @@ int getMedianNum(int bArray[], int iFilterLen)
 }
 void PRT()
   {
-    Serial.print("Temp Agua:");
-    Serial.println(tempAgua);
-    Serial.print("Temp Ar:");
-    Serial.println(tempAr);
-    Serial.print("Humidade:");
-    Serial.println(humidade);
-    Serial.print("CO2:");
-    Serial.println(gasPPM);
-    Serial.print("Sais:");
-    Serial.println(solubilidadePPM);
-    Serial.print("Frequencia:");
+    Serial.print(tempAgua);
+    Serial.print(",");
+    Serial.print(tempAr);
+    Serial.print(",");
+    Serial.print(humidade);
+    Serial.print(",");
+    Serial.print(gasPPM);
+    Serial.print(",");
+    Serial.print(solubilidadePPM);
+    Serial.print(",");
     Serial.println(frequencyR);
-    Serial.println();
   }
 
 void SOL(){
