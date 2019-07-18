@@ -29,16 +29,16 @@ Neste ![link](https://www.electroschematics.com/wp-content/uploads/2015/02/DHT.r
 
  ## Links com as montagens dos sensores:
 
--![Salinidade](https://wiki.dfrobot.com/Gravity__Analog_TDS_Sensor___Meter_For_Arduino_SKU__SEN0244)
+-[Salinidade](https://wiki.dfrobot.com/Gravity__Analog_TDS_Sensor___Meter_For_Arduino_SKU__SEN0244)
 
--![Frequencia](https://wiki.dfrobot.com/TCS3200_Color_Sensor__SKU_SEN0101_#target_3)
+-[Frequencia](https://wiki.dfrobot.com/TCS3200_Color_Sensor__SKU_SEN0101_#target_3)
 
--![Gas](https://portal.vidadesilicio.com.br/sensor-de-gas-mq-135/)
+-[Gas](https://portal.vidadesilicio.com.br/sensor-de-gas-mq-135/)
 
--![Temp e Humidade Ar](https://www.electroschematics.com/11291/arduino-dht22-am2302-tutorial-library/) - Neste o D2 passa para o D8
+-[Temp e Humidade Ar](https://www.electroschematics.com/11291/arduino-dht22-am2302-tutorial-library/) - Neste o D2 passa para o D8
 
 
--![Temp Água](https://create.arduino.cc/projecthub/TheGadgetBoy/ds18b20-digital-temperature-sensor-and-arduino-9cc806) - Neste o D2 passa para o D9
+-[Temp Água](https://create.arduino.cc/projecthub/TheGadgetBoy/ds18b20-digital-temperature-sensor-and-arduino-9cc806) - Neste o D2 passa para o D9
 
 "Vou ver se ponho aqui imagens"
 
