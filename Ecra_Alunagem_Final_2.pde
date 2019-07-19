@@ -11,7 +11,7 @@
 import processing.serial.*;
 Serial myPort;
 
-int numValues = 6; // number of input values or sensors
+int numValues = 7; // number of input values or sensors
 // * change this to match how many values your Arduino is sending *
 
 float[] values = new float[numValues];
@@ -27,13 +27,13 @@ boolean clearScreen = true; // flagged when graph has filled screen
 
 
 void setup() {
-  size(1400, 1000);
+  size(1400, 700);
   partH = height / numValues;
 
   // List all the available serial ports:
   printArray(Serial.list());
   // First port [0] in serial list is usually Arduino, but *check every time*:
-  String portName = Serial.list()[0];
+  String portName = Serial.list()[8];
   myPort = new Serial(this, portName, 9600);
   // don't generate a serialEvent() until you get a newline character:
   myPort.bufferUntil('\n');
@@ -51,37 +51,44 @@ void setup() {
   min[0] = 0;
   max[0] = 40;    // digital input example, e.g. a button
   valColor[0] = color(0, 0, 255); // blue
-
-  values[1] = 0;
-  text[1]="Temp Ar - ºC";
-  min[1] = 0;
-  max[1] = 40; // custom range example 
-  valColor[1] = color(255, 166, 0); // purple
   
-   values[2] = 0;
-   text[2]="Humidade - %";
-   min[2] = 0;
-   max[2] = 100; // custom range example 
-   valColor[2] = color(240, 255, 0);
+   values[1] = 0;
+   text[1]="Humidade - %";
+   min[1] = 0;
+   max[1] = 100; // custom range example 
+   valColor[1] = color(240, 255, 0);
    
-  values[3] = 0;
-  text[3]="CO2 - ppm";
-  min[3] = 0;
-  max[3] = 500; // full range example, e.g. any analogRead
-  valColor[3] = color(255, 0, 0); // red
+  values[2] = 0;
+  text[2]="CO2 - ppm";
+  min[2] = 0;
+  max[2] = 500; // full range example, e.g. any analogRead
+  valColor[2] = color(255, 0, 0); // red
 
-  values[4] = 0;
-  text[4]="Solubilidade - ppm";
-  min[4] = 0;
-  max[4] = 2000;  // partial range example, e.g. IR distance sensor
-  valColor[4] = color(0, 255, 0); // green
+  values[3] = 0;
+  text[3]="Solubilidade - ppm";
+  min[3] = 0;
+  max[3] = 2000;  // partial range example, e.g. IR distance sensor
+  valColor[3] = color(0, 255, 0); // green
    
-   values[5] = 0;
-   text[5]="Freq - nm";
-   min[5] = 0;
-   max[5] = 700; // custom range example 
-   valColor[5] = color(0, 255, 146);
+   values[4] = 0;
+   text[4]="Red Intensity";
+   min[4] = 0;
+   max[4] = 255; // custom range example 
+   valColor[4] = color(0, 255, 146);
+
+  values[5] = 0;
+  text[5]="Green Intensity";
+  min[5] = 0;
+  max[5] = 255; // custom range example 
+  valColor[5] = color(255, 166, 0); // purple
+  
+  values[6] = 0;
+  text[6]="Blue Intensity";
+  min[6] = 0;
+  max[6] = 255; // custom range example 
+  valColor[6] = color(255, 166, 0); // purple
 }
+
 
 
 void draw() {
