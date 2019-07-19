@@ -84,17 +84,20 @@ void ISR_INTO()
  if(flag==1)
   {
     countR=counter;
-    frequencyR = map(countR, 590,750,0,255);
+    digitalWrite(s2,HIGH);
+    digitalWrite(s3,HIGH);
   }
   else if(flag==2)
    {
     countG=counter;
-    frequencyG = map(countG, 495,585,0,255);
+    digitalWrite(s2,LOW);
+    digitalWrite(s3,HIGH);
    }
    else if(flag==3)
     {
     countB=counter;
-    frequencyB = map(countB, 380,494,0,255);
+    digitalWrite(s2,LOW);
+    digitalWrite(s3,LOW);
     }
     else if(flag==4)
      {
@@ -134,15 +137,17 @@ void PRT()
   {
     Serial.print(tempAgua);
     Serial.print(",");
-    Serial.print(tempAr);
-    Serial.print(",");
     Serial.print(humidade);
     Serial.print(",");
     Serial.print(gasPPM);
     Serial.print(",");
     Serial.print(solubilidadePPM);
     Serial.print(",");
-    Serial.println(frequencyR);
+    Serial.print(countR);
+    Serial.print(",");
+    Serial.print(countG);
+    Serial.print(",");
+    Serial.println(countB);
   }
 
 void SOL(){
@@ -182,6 +187,6 @@ void loop() {
  sensors.requestTemperatures(); // Send the command to get temperature readings 
  tempAgua=sensors.getTempCByIndex(0); // Why "byIndex"? 
  tempAgua=tempAr;
- delay(1000);
+ delay(10);
  PRT(); 
 }
