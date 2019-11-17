@@ -48,8 +48,7 @@ Neste ![link](https://www.electroschematics.com/wp-content/uploads/2015/02/DHT.r
 
 ## Processing
 **A ideia é ficar com uma coisa deste gênero:**
-![alt text](https://i.imgur.com/6xdFLSC.jpg){:target="_blank"}
-
+![alt text](https://i.imgur.com/6xdFLSC.jpg)
 
 O código que vai ser usado é o que está na ![Página Inicial](https://github.com/njrebelo/AlunagemESERO/blob/Codigos/Ecra_Alunagem_Final_2.pde)
 
